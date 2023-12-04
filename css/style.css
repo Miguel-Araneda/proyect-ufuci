@@ -44,7 +44,9 @@ P{
     height: 25vh;
 
 }
-
+a :hover{
+    color: rgb(101, 165, 42);
+}
 /* fin estilos globales*/
 
 /* inicio header*/
@@ -61,7 +63,7 @@ P{
 
 /* inicio main*/
 .main-fondo{
-    background-image: url("../images/viva\ chile\ mob.jpg");
+    background-image: url("../images/viva-chile-mob.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -131,7 +133,7 @@ P{
 
    position: fixed;
    bottom: 1rem;
-   right: 2rem; 
+   right: 5rem; 
 /* fin whattsapp*/
 }
 .flex-footer{
@@ -149,7 +151,7 @@ P{
 /* fin footer*/
 @media (min-width:500px){
 .main-fondo-tab{
-    background-image: url("../images/viva\ chile\ tab.jpg");
+    background-image: url("../images/viva-chile-tab.jpg");
 } 
 .button {
     align-items: center;
@@ -176,4 +178,9 @@ P{
        font-size: 30px;
 }
 
+.fondo-logo{
+    right: 2rem; 
+}    
+    
+ /* fin whattsapp*/
 }
