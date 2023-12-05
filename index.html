@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>UFUCI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header> <!--start heder-->
         <section class="flex-header-d h-centrado">
             <img src="images\ufuci.svg" alt="logo ufuci">
-            <h1 class="h-centrado">Unión Fuerza Ciudadana</h1>                  
+            <h1 class="h-centrado">Unión Fuerza Ciudadana</h1>
             <nav class="social-media">
-              <ul class="flex-header flex-header-d"><!--social media-->
-                  <li>
-                      <a href="https://web.facebook.com/ufucichile" target="_blank">
-                          <img src="images\facebook.svg" alt="icono facebook">
-                      </a>
-                  </li>
-                  <li>
-                      <a href="https://www.instagram.com/ufucioficial/" target="_blank">
-                          <img src="images\instagram.svg" alt="icono instagram"></a>
-                  </li>
-                  <li>
-                      <a href="https://twitter.com/unionfuerzaciu1" target="_blank">
-                          <img src="images\x.svg" alt="icono x"></a>
-                  </li>
-                  <li>
-                      <a href="https://www.youtube.com/channel/UCF5N0FIlXRvgltf3GOB0FuA/videos" target="_blank">
-                          <img src="images\youtube.svg" alt="icono youtube"></a>
-                  </li>
-                  <li>
-                      <a href="https:mailto:contacto@ufuci.cl"target="_blank">
-                          <img src="images\email.svg" alt="icono email"></a>
-                  </li>
-              </ul>
-      
+                <ul class="flex-header flex-header-d"><!--social media-->
+                    <li>
+                        <a href="https://web.facebook.com/ufucichile" target="_blank">
+                            <img src="images\facebook.svg" alt="icono facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ufucioficial/" target="_blank">
+                            <img src="images\instagram.svg" alt="icono instagram"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/unionfuerzaciu1" target="_blank">
+                            <img src="images\x.svg" alt="icono x"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCF5N0FIlXRvgltf3GOB0FuA/videos" target="_blank">
+                            <img src="images\youtube.svg" alt="icono youtube"></a>
+                    </li>
+                    <li>
+                        <a href="https:mailto:contacto@ufuci.cl" target="_blank">
+                            <img src="images\email.svg" alt="icono email"></a>
+                    </li>
+                </ul>
+
             </nav>
 
-        </section>              
-      <nav>
-        <ul>
-            <li> <!--barra inicio-->
-                <a href="pages/nosotros.html">Nosotros</a>
-            </li>
-            <li>
-                <a href="pages/nuestro_canal.html">Nuestro Canal</a>
-            </li>
-            <li>
-                <a href="pages/aporta-aqui.html">Aporta Aquí</a>
-            </li>
-            <li>
-                <a href="pages/desafios.html">Desafios</a>
-            </li>
-            <li>
-                <a href="pages/contacto.html">Contacto</a>
-            </li>
-        </ul>
-      </nav>      
+        </section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="pages/nosotros.html">Nosotros</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="pages/nuestro_canal.html">Nuestro Canal</a>
+                        <a class="nav-link" href="ages/aporta-aqui.html">Aporta Aquí</a>
+                        <a class="nav-link" href="pages/desafios.html">Desafios</a>
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav>
+            <ul>
+                <li> 
+                    <a href="pages/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="pages/nuestro_canal.html">Nuestro Canal</a>
+                </li>
+                <li>
+                    <a href="pages/aporta-aqui.html">Aporta Aquí</a>
+                </li>
+                <li>
+                    <a href="pages/desafios.html">Desafios</a>
+                </li>
+                <li>
+                    <a href="pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav> -->
     </header> <!--end heder-->
     <main class="flex-main"> <!--start main-->
         <section class="main-fondo main-fondo-des main-fondo-tab">
@@ -69,30 +92,39 @@
             <button>Aporta Aquí</button>
         </section>
         <section class="h-centrado">
-            <h2 >Únete a la transformación.</h2>
+            <h2>Únete a la transformación.</h2>
             <p>Juntos, generamos un cambio positivo.</p>
             <p>Defendemos la verdadera democracia e igualdad</p>
             <h3>¡somos unión fuerza ciudadana!</h3>
             <p>Creemos en la importancia de la familia, la propiedad y el equilibrio de poderes en la democracia.</p>
             <p>Respaldamos una economía social de mercado y promovemos la seguridad y la paz en nuestra sociedad</p>
-            <p>Buscamos un desarrollo sostenible, la educación de calidad y la protección del medio ambiente, uniendo a todas las regiones del país.</p>
-            <p>Trabajamos de manera participativa, involucrando a personas y organizaciones comprometidas con la libertad, justicia, responsabilidad y respeto a los derechos individuales.</p>
-            <p>Juntos, fortalecemos los pilares de nuestra nación y creamos un impacto positivo en nuestras comunidades.</p>
-            <h3>Únete a Unión Fuerza Ciudadana y forma parte del movimiento que impulsa un futuro próspero y transparente para todos los chilenos.</h3>
+            <p>Buscamos un desarrollo sostenible, la educación de calidad y la protección del medio ambiente, uniendo a
+                todas las regiones del país.</p>
+            <p>Trabajamos de manera participativa, involucrando a personas y organizaciones comprometidas con la
+                libertad, justicia, responsabilidad y respeto a los derechos individuales.</p>
+            <p>Juntos, fortalecemos los pilares de nuestra nación y creamos un impacto positivo en nuestras comunidades.
+            </p>
+            <h3>Únete a Unión Fuerza Ciudadana y forma parte del movimiento que impulsa un futuro próspero y
+                transparente para todos los chilenos.</h3>
             <button>Aporta Aquí</button>
         </section>
     </main><!--end main-->
     <footer class="footer"> <!--start footer-->
-        <div class="fondo-logo">            
-            <a href="https://wa.link/zcz8vo" target="_blank"><img class="wpp-imagen" src="images/logo-whattsapp.svg" alt="logo whattsapp"></a>
+        <div class="fondo-logo">
+            <a href="https://wa.link/zcz8vo" target="_blank"><img class="wpp-imagen" src="images/logo-whattsapp.svg"
+                    alt="logo whattsapp"></a>
         </div>
         <section class="flex-footer">
             <h5>Unión Fuerza Ciudadana</h5>
             <a href="mailto:contacto@ufuci.cl">contacto@ufuci.cl</a>
-            <img src="images\ufuci.svg" alt="logo ufuci">             
+            <img src="images\ufuci.svg" alt="logo ufuci">
             <p>2023 - Todos los derechos reservados.</p>
-            
+
         </section>
     </footer><!--end footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

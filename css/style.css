@@ -1,142 +1,162 @@
 /* inicio estilos globales*/
-*{
+* {
     font-family: 'Montserrat', sans-serif;
-} 
-*{
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-h2{
+
+h2 {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-button{
+
+button {
     background-color: rgba(225, 190, 14, 0.879);
     font-weight: 800;
     height: 2.5rem;
     width: 15%;
 }
-P{
+
+P {
     margin-top: 1rem;
-    margin-bottom: 1rem;  
+    margin-bottom: 1rem;
 }
-.mediana{
+
+.mediana {
     width: 30vw;
     height: 50vh;
 
 }
-.pequeña{
+
+.pequeña {
     width: 15vw;
     height: 25vh;
 
 }
-a :hover{
+
+a :hover {
     color: rgb(101, 165, 42);
 }
+
 /* fin estilos globales*/
 
 /* inicio header*/
 /* flex-heder logo y iconos de rrss*/
-.flex-header{
+.flex-header {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 1rem;  
+    margin-bottom: 1rem;
 
 }
-
 /* fin header*/
 
 /* inicio main*/
-.main-fondo{
+.main-fondo {
     background-image: url("../images/viva-chile-mob.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     text-align: center;
     margin-top: 1rem;
 }
-.main-fondo h2{
+
+.main-fondo h2 {
     margin-top: 15rem;
     font-size: 22px;
 }
-.main-fondo button{
+
+.main-fondo button {
     margin: 1rem 15rem 15rem 15rem;
 }
-   
-.flex-main{
+
+.flex-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
-    }
+
+
+}
+
 .h-centrado {
     text-align: center;
     margin-top: 2rem;
-        
-    }
+
+}
+
 .button {
-    margin: 2rem;;
-    
-}   
+    margin: 2rem;
+    ;
+
+}
+
 .h-centrado h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 
-} 
-.aporte{
+}
+
+.aporte {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
-.grid-contenedor{
+
+.grid-contenedor {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,10rem);    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 10rem);
 }
-.grid-hijo-cuatro{
+
+.grid-hijo-cuatro {
     grid-column: 2/3;
     margin-top: 3rem;
 
 }
+
 /* fin main*/
 /* inicio footer*/
 
-.wpp-imagen{
+.wpp-imagen {
     width: 3rem;
 }
-/* inicio whattsapp*/
-.fondo-logo{
-   background: rgb(77, 194, 71); 
-   display: inline-block;
-   padding: .5rem;
-   border-radius: 50%;
 
-   position: fixed;
-   bottom: 1rem;
-   right: 8rem; 
-/* fin whattsapp*/
+/* inicio whattsapp*/
+.fondo-logo {
+    background: rgb(77, 194, 71);
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 1rem;
+    right: 8rem;
+    /* fin whattsapp*/
 }
-.flex-footer{
+
+.flex-footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,39 +168,44 @@ a :hover{
 
 
 }
+
 /* fin footer*/
-@media (min-width:500px){
-.main-fondo-tab{
-    background-image: url("../images/viva-chile-tab.jpg");
-} 
-.button {
-    align-items: center;
-    
-}
+@media (min-width:500px) {
+    .main-fondo-tab {
+        background-image: url("../images/viva-chile-tab.jpg");
+    }
+
+    .button {
+        align-items: center;
+
+    }
 
 }
 
-    
-@media (min-width:750px){
-.flex-header{
-    display: none;
-}
-.flex-header-d{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;   
-    align-items: center;
-}
-.main-fondo-des{
-    background-image: url("../images/imagen\ viva\ chile.jpg");   
-}
-.main-fondo h2{
-       font-size: 30px;
-}
 
-.fondo-logo{
-    right: 2rem; 
-}    
-    
- /* fin whattsapp*/
+@media (min-width:750px) {
+    .flex-header {
+        display: none;
+    }
+
+    .flex-header-d {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .main-fondo-des {
+        background-image: url("../images/imagen\ viva\ chile.jpg");
+    }
+
+    .main-fondo h2 {
+        font-size: 30px;
+    }
+
+    .fondo-logo {
+        right: 2rem;
+    }
+
+    /* fin whattsapp*/
 }
